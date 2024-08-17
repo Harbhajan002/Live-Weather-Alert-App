@@ -36,7 +36,7 @@ input.value="";
 let weather=document.querySelector(".weather").style.display="block";
 console.log(weather);
 }
-input.addEventListener("click",()=>{
+btn.addEventListener("click",()=>{
     checkWeather(input.value);
     console.log(input.value);
 })
